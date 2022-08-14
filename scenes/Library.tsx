@@ -1,15 +1,15 @@
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 
-export default function Home() {
+export default function Library() {
   return (
-    <View style={ home.mainContainer }>
-      <Text>Home</Text>
+    <View style={ library.mainContainer }>
+      <Text>Library</Text>
     </View>
   );
 }
 
-const home = StyleSheet.create({
+const library = StyleSheet.create({
   mainContainer: {
     flex: 1,
     alignItems: 'center',
